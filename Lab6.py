@@ -19,7 +19,7 @@ def main():
             user_choice = int(input("\n-->\t"))
             #ask the user for their choice
             if user_choice == 1:
-                encoder()
+                encode()
             elif user_choice == 2:
                 pass
             elif user_choice == 3:
@@ -33,7 +33,7 @@ def main():
         #handle exceptions if input is bad
 
 
-def encoder():
+def encode():
     print("\nWhat code do you need to encode?")
     un_encoded_num = input("-->\t")
     final_encoded_string = ""
