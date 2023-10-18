@@ -54,6 +54,7 @@ def encode():
 #--------------------
 #decoder goes here :)
 #--------------------
+#adding test comment "Mike was here!"
 
 
 if __name__ == '__main__':
