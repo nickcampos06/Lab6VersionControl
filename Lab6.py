@@ -21,7 +21,7 @@ def main():
             if user_choice == 1:
                 encode()
             elif user_choice == 2:
-                pass
+                decode()
             elif user_choice == 3:
                 keep_asking = False
             else:
@@ -67,7 +67,7 @@ def decode():
         #add it to the final string
     print(f"\nEncoded Password: {final_decoded_string}")
     #print final number
-    
+
 #adding test comment "Mike was here!"
 
 
