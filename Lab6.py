@@ -68,7 +68,6 @@ def decode():
     print(f"\nEncoded Password: {final_decoded_string}")
     #print final number
 
-#adding test comment "Mike was here!"
 
 
 if __name__ == '__main__':
