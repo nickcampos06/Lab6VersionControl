@@ -51,9 +51,23 @@ def encode():
     #print final number
 
 
-#--------------------
-#decoder goes here :)
-#--------------------
+def decode():
+    print("\nWhat code do you need to decode?")
+    encoded_num = input("-->\t")
+    final_decoded_string = ""
+    #get encoded password and initiate empty string
+    for num in encoded_num:
+        num = int(num)
+        num -= 3
+        #get every number and subtract 3 to it
+        if num < 0:
+            num += 10
+        #if number less than 0, add 10
+        final_decoded_string += str(num)
+        #add it to the final string
+    print(f"\nEncoded Password: {final_decoded_string}")
+    #print final number
+    
 #adding test comment "Mike was here!"
 
 
